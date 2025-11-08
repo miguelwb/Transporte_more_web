@@ -1,6 +1,5 @@
-export const BASE_URL = import.meta.env.DEV
-  ? ''
-  : 'https://backend-mobilize-transporte.onrender.com';
+// Use path relativo para funcionar com proxy local (Vite) e rewrites no Vercel/Render
+export const BASE_URL = '';
 
 async function handleResponse(res) {
   const contentType = res.headers.get('content-type') || '';

@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Home() {
   useEffect(() => {
@@ -17,7 +18,7 @@ export default function Home() {
       <div className="img-conteudo-principal">
         <img src="/assets/logocerta.png" alt="Ônibus Transporte+" />
       </div>
-      <a href="/contato" className="feedback-icon" aria-label="Suporte">
+      <NavLink to="/contato" className="feedback-icon" aria-label="Suporte">
         <span className="support-icon" aria-hidden="true">
           <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" stroke="#ffffff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
@@ -40,7 +41,7 @@ export default function Home() {
             </g>
           </svg>
         </span>
-      </a>
+      </NavLink>
     </div>
   );
 }
