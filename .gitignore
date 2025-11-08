@@ -3,6 +3,11 @@ node_modules/
 dist/
 .vite/
 
+# Lockfiles (evitar problemas de SO na hospedagem)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
 # Logs and caches
 npm-debug.log*
 yarn-debug.log*
