@@ -3,8 +3,9 @@ node_modules/
 dist/
 .vite/
 
-# Lockfiles (evitar problemas de SO na hospedagem)
-package-lock.json
+# Lockfiles
+# Mantenha apenas o package-lock versionado para instalações reproduzíveis.
+# yarn.lock e pnpm-lock.yaml continuam ignorados.
 yarn.lock
 pnpm-lock.yaml
 
