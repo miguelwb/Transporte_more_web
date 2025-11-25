@@ -8,6 +8,9 @@ export default function AppPage() {
     '/assets/app4.png',
     '/assets/app5.png',
     '/assets/app6.png',
+    '/assets/app7.png',
+    '/assets/app8.png',
+    '/assets/app9.png'
   ];
   const [current, setCurrent] = useState(0);
 
